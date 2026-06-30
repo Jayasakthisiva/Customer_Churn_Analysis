@@ -1,0 +1,79 @@
+## Overview
+This project uses a simulated e-commerce customer dataset to analyze customer behavior, purchasing patterns, customer retention, and churn. The dataset contains customer profiles, order transactions, product information, and monthly sales summaries, enabling comprehensive business analysis and dashboard development.
+---
+
+## Dataset Source
+- **Source:** Kaggle
+- **Dataset Type:** Simulated E-Commerce Customer Churn Dataset
+- **Purpose:** Educational and portfolio project
+---
+
+## Project Domain
+E-Commerce Analytics
+---
+
+## Dataset Files
+| File Name | Description |
+|-----------|-------------|
+| customers.csv | Contains customer demographic information, membership details, purchase behavior, and churn status. |
+| orders.csv | Contains transactional order details, payment information, delivery details, and customer interactions. |
+| products.csv | Contains product-level sales performance metrics, pricing, ratings, discounts, and return statistics. |
+| monthly_sales.csv | Contains monthly aggregated sales KPIs, customer growth, revenue, and order trends. |
+| data_dictionary.xlsx | Provides metadata including column names, data types, and descriptions for all tables. |
+---
+
+## Number of Tables
+- Customers
+- Orders
+- Products
+- Monthly Sales Summary
+
+**Total Tables:** 4
+---
+
+## Primary Keys
+| Table | Primary Key |
+|--------|-------------|
+| Customers | customer_id |
+| Orders | order_id |
+| Products | product_name |
+| Monthly Sales | year, month |
+---
+
+## Table Relationships
+| Parent Table | Child Table | Relationship |
+|--------------|-------------|--------------|
+| Customers | Orders | One-to-Many |
+| Products | Orders | One-to-Many |
+---
+
+## Business Objective
+The dataset is used to identify factors contributing to customer churn and generate actionable business insights to improve customer retention, sales performance, and overall business growth.
+---
+
+## Project Scope
+The dataset supports the following analyses:
+
+- Customer Churn Analysis
+- Customer Segmentation
+- Sales Performance Analysis
+- Product Performance Analysis
+- Revenue Trend Analysis
+- Customer Retention Analysis
+- KPI Development
+- Interactive Power BI Dashboard
+---
+
+## Tools & Technologies
+- SQL (MySQL)
+- Microsoft Excel
+- Power Query
+- Power BI
+- Git & GitHub
+---
+
+## Notes
+- The dataset was obtained from Kaggle for educational and portfolio purposes.
+- ETL (Extract, Transform, Load) processes are performed using Power Query.
+- Business analysis and KPI calculations are performed using SQL.
+- Interactive dashboards are developed using Power BI.
