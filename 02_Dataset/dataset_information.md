@@ -1,5 +1,5 @@
 ## Overview
-This project uses a simulated e-commerce customer dataset to analyze customer behavior, purchasing patterns, sales performance, and customer churn. The dataset consists of multiple related tables representing customers, orders, products, and monthly sales summaries, enabling end-to-end business analysis and dashboard development.
+**This project uses a simulated e-commerce customer dataset to analyze customer behavior, purchasing patterns, sales performance, and customer churn. The dataset consists of multiple related tables representing customers, orders, products, and monthly sales summaries, enabling end-to-end business analysis and dashboard development.
 ---
 
 ## Dataset Source
