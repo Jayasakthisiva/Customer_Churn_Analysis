@@ -4,17 +4,17 @@
 This project uses a simulated e-commerce customer dataset to analyze customer behavior, purchasing patterns, sales performance, and customer churn. The dataset consists of multiple related tables representing customers, orders, products, and monthly sales summaries, enabling end-to-end business analysis and dashboard development.
 ---
 
-# Dataset Source
+## Dataset Source
 - **Source:** Kaggle
 - **Dataset Type:** Simulated E-Commerce Customer Churn Dataset
 - **Usage:** Educational and Portfolio Project
 ---
 
-# Project Domain
+## Project Domain
 **E-Commerce Analytics**
 ---
 
-# Dataset Files
+## Dataset Files
 | File Name | Description |
 |-----------|-------------|
 | customers.csv | Contains customer demographics, membership details, shopping preferences, and churn information. |
@@ -24,7 +24,7 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | data_dictionary.xlsx | Documents the metadata for each dataset, including column names, data types, and descriptions. |
 ---
 
-# Dataset Structure
+## Dataset Structure
 | Table | Number of Records | Description |
 |-------|------------------:|-------------|
 | Customers | Customer-level data | Stores customer profile and behavioral information. |
@@ -34,7 +34,7 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 > *Record counts may vary depending on the dataset version.*
 ---
 
-# Primary Keys
+## Primary Keys
 | Table | Primary Key |
 |--------|-------------|
 | Customers | customer_id |
@@ -43,18 +43,18 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | Monthly Sales | Composite Key (year, month) |
 ---
 
-# Table Relationships
+## Table Relationships
 | Parent Table | Child Table | Relationship |
 |--------------|-------------|--------------|
 | Customers | Orders | One-to-Many |
 | Products | Orders | One-to-Many (via product_name) |
 ---
 
-# Business Objective
+## Business Objective
 The primary objective of this dataset is to identify customers who are at risk of churning and uncover the key business factors influencing customer retention. The analysis aims to support data-driven decision-making by providing actionable insights into customer behavior, sales trends, and product performance.
 ---
 
-# Project Scope
+## Project Scope
 This dataset supports the following analyses:
 
 - Customer Churn Analysis
@@ -68,7 +68,7 @@ This dataset supports the following analyses:
 - Interactive Dashboard Development
 ---
 
-# Tools & Technologies
+## Tools & Technologies
 - MySQL
 - Microsoft Excel
 - Power Query
@@ -76,7 +76,7 @@ This dataset supports the following analyses:
 - Git & GitHub
 ---
 
-# Notes
+## Notes
 - This dataset was obtained from Kaggle for educational and portfolio purposes.
 - The raw dataset is preserved without modification.
 - Data cleaning and transformation (ETL) are performed using Power Query.
