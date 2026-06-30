@@ -22,3 +22,14 @@ Many businesses lose customers without understanding why. Customer churn directl
 - Average Order Value
 - Customer Lifetime Value
 - Repeat Purchase Rate
+
+## Project Scope
+- Clean and transform raw customer transaction data.
+- Perform exploratory data analysis (EDA).
+- Identify churned customers using SQL.
+- Analyze customer purchasing behavior.
+- Build an interactive Power BI dashboard.
+- Generate actionable business insights and recommendations.
+
+## Expected Outcome
+This project helps businesses identify customers at risk of churn, understand purchasing behavior, improve customer retention strategies, and support data-driven decision-making through SQL analysis and interactive Power BI dashboards.
