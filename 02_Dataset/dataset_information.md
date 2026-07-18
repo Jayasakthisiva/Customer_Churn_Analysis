@@ -19,7 +19,6 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | customers.csv | Contains customer demographics, membership details, shopping preferences, and churn information. |
 | orders.csv | Contains order-level transactional data, payment details, delivery information, and customer interactions. |
 | products.csv | Contains product details along with sales and performance metrics. |
-| monthly_sales.csv | Contains monthly aggregated business metrics including revenue, orders, customer growth, and sales trends. |
 | data_dictionary.xlsx | Documents the metadata for each dataset, including column names, data types, and descriptions. |
 ---
 
@@ -29,7 +28,6 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | Customers | Customer-level data | Stores customer profile and behavioral information. |
 | Orders | Order-level data | Stores individual purchase transactions. |
 | Products | Product-level data | Stores product information and performance statistics. |
-| Monthly Sales | Monthly summary | Stores aggregated monthly business metrics. |
 > *Record counts may vary depending on the dataset version.*
 ---
 
@@ -39,7 +37,6 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | Customers | customer_id |
 | Orders | order_id |
 | Products | product_name *(used as a unique identifier in this dataset)* |
-| Monthly Sales | Composite Key (year, month) |
 ---
 
 ## Table Relationships
