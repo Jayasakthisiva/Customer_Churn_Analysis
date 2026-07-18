@@ -43,7 +43,7 @@ This project uses a simulated e-commerce customer dataset to analyze customer be
 | Parent Table | Child Table | Relationship |
 |--------------|-------------|--------------|
 | Customers | Orders | One-to-Many |
-| Products | Orders | One-to-Many (via product_name) |
+| Products | Orders | One-to-Many (via product_id) |
 ---
 
 ## Business Objective
