@@ -255,7 +255,7 @@ Customer-Churn-Analytics
 
 **Jayasakthi S**
 
-Aspiring Data Analyst
+Data Analyst
 
 Skills:
 SQL • Power BI • Excel • Power Query • DAX
