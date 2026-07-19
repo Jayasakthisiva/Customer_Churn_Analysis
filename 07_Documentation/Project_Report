@@ -1,0 +1,33 @@
+Customer Churn Analytics Project Report
+Project Overview
+This project analyzes customer purchasing behavior, revenue performance, and churn using SQL
+and Power BI. The goal is to identify churn drivers, monitor KPIs, and recommend strategies to
+improve customer retention.
+Business Problem
+Customer churn reduces long-term revenue and customer lifetime value. The dashboard helps
+identify high-risk customer segments and revenue at risk.
+Objectives
+• Analyze customer behavior.
+• Measure churn and retention.
+• Build interactive Power BI dashboards.
+• Provide actionable business recommendations.
+Dataset
+The project uses Customers, Orders, and Products tables containing customer demographics,
+transactions, product information, membership tiers, acquisition channels, and churn indicators.
+Tools Used
+MySQL, Power BI, Microsoft Excel, GitHub.
+Database Model
+Relational model with Customers fi Orders ‹ Products using primary and foreign keys.
+Data Cleaning
+Trimmed text, standardized values, validated relationships, handled duplicates and missing values,
+and verified data quality.
+KPIs
+Total Customers, Total Orders, Total Revenue, Churn Rate, Retention Rate, Average Order Value,
+Revenue at Risk, Return Rate, Customer Lifetime Value.
+Key Business Insights
+Electronics generated the highest revenue. Organic Search contributed the highest acquisition
+revenue. Gold members showed relatively high churn despite strong revenue contribution.
+Customers inactive for more than 90 days had the highest churn risk.
+Conclusion
+The project demonstrates end-to-end data analytics skills including SQL querying, data cleaning,
+data modeling, KPI development, dashboard design, and business storytelling
