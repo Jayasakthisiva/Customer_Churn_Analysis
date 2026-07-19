@@ -122,14 +122,8 @@ Some of the cleaning steps included:
 
 The database follows a relational model.
 
-Customers
-        │
-        │
-        ▼
-      Orders
-        ▲
-        │
-Products
+Customers -----> Orders <----- Products
+     
 
 The complete ER Diagram is available in the repository.
 
